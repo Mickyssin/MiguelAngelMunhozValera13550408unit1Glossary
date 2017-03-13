@@ -10,7 +10,7 @@ div.lexique
     -o-column-rule: 1px dotted #ccc;
     -ms-column-rule: 1px dotted #ccc;
     column-rule: 1px dotted #ccc;
-    width: 80%;
+    width: 77%;
 }
 
 @media screen and (max-width: 768px) {
@@ -79,10 +79,17 @@ a:hover
 }
 
 iframe{
-    width: 19%;
+    width: 23%;
     height: 200px;
     border-left: 1px solid #3f51b5;
     position: fixed;
-    top: 28%;
-    left: 80%;
+    top: 30%;
+    right: 1%;
+}
+
+.definition{
+    font-family: verdana;
+}
+.definition h2{
+    color: blue;
 }
